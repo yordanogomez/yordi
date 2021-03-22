@@ -1,0 +1,30 @@
+
+
+.icon-facebook{
+    background: #2E406E;
+}
+.icon-twitter{
+    background: #339dc5;
+}
+.icon-youtube{
+    background: #e83028;
+}
+.icon-instagram{
+    background: #e4405f;
+    background: radial-gradient(circle at 30% 107%,#fdf497 0%, #fdf497 5%, #fd5949 45%, #d6249f 60%, #285aeb 90%);
+}
+.fa-spotify{
+    background: #1DB954;
+}
+.icon:first-child{
+    border-radius: 1rem  0; 
+}
+.icon:last-child{
+    border-radius:  0 1rem;
+}
+.icon:hover {
+    padding-left: 3rem;
+    padding-right:1rem 0 0 1rem;
+    box-shadow: 0 0  .5rem rgba(0,0,0,0,42);
+}
+

@@ -1,0 +1,126 @@
+/* FOTTER */
+body{
+  margin: 0;
+  padding: 0;
+  font-family:'Stylish', sans-serif;
+}
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+h2 {
+  color: rgb(255, 255, 255);
+}
+
+/** GLOBAL ONLY FOR FOOTER **/
+
+span i {
+  font-size: 20px;
+  cursor: pointer;
+}
+
+/** FOOTER STYLING **/
+
+#footer {
+  width: 100%;
+  position: absolute;
+  top: 100%;
+  min-height: 20vh;
+  background-color: #572364;
+  overflow: hidden;
+}
+
+/** GRID **/
+/** ONLY FOR WEB VIEW **/
+#footer .footer-w {
+  padding: 0 50px;
+  display: grid;
+  grid-template-columns: 25% 25% 25% 25%;
+}
+
+/** IMG **/
+
+.img {
+  margin-top: 50px;
+
+}
+
+/** M-LEFT AND M-RIGHT AND SOCIAL ICONS DIV STYLING **/
+
+.m-left, .m-right, .socials {
+  margin-top: 50px;
+}
+
+.socials {
+  margin-bottom: 50px;
+}
+
+
+/** SEPERATE STYLING **/
+
+.m-left h2, .m-right h2, .socials h2 {
+  margin-bottom: 20px;
+}
+
+.m-left .location, .m-right .contact, .socials .s-box span {
+  color: white;
+}
+
+.m-left .location {
+  margin-bottom: 50px;
+}
+
+.m-right  .contact {
+  margin-bottom: 50px;
+}
+
+/** SOCIAL ICONS BACKGROUND COLOR AND GAP**/
+
+.s-box span i {
+  font-size: 20px;
+}
+
+.socials .s-box span {
+  margin-top: 5px;
+  padding: 10px;
+  background-color: none;
+  border-radius: 10px;
+  cursor: pointer;
+  transition: .5s;
+}
+
+/** HOVER STATE **/
+
+/** FOR FACEBOOK **/
+.s-box span:hover:nth-child(1) {
+  background-color: #2E406E;
+}
+
+/** FOR TWITTER **/
+.s-box span:hover:nth-child(2) {
+  background-color: #339dc5;
+}
+
+/** FOR INSTAGRAM **/
+.s-box span:hover:nth-child(3) {
+    background: #e4405f;
+    background: radial-gradient(circle at 30% 107%,#fdf497 0%, #fdf497 5%, #fd5949 45%, #d6249f 60%, #285aeb 90%);
+}
+
+/** FOR YOUTUBE **/
+.s-box span:hover:nth-child(4) {
+  background-color: #cd201f;
+}
+
+
+/** MOBILE AND TAB FRIENDLY RESPONSIVENESS **/
+
+@media only screen and (max-width: 951px) {
+  #footer .footer-w { /** ONLY BLOCK PROPERTY **/
+      padding: 0 50px;
+      display: block;
+      /** APPLY TEXT-ALIGN CENTER TO MAKE MORE BEAUTIFUL **/
+      text-align: center;
+  }
+}
